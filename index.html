@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="TEDx Youth Ismailia STEM is a non-profit organization that work on effecting all their audiences through making an Event that has experiences speakers in different careers who gives a short talk in about 18 minutes. ">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Home | Tedx-Ismailia</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/jquery.js"></script>
+    <script defer src="js/jquery.anisview.js"></script>
+    <script defer src="js/particles.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="js/main.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <header class="container-fluid">
+        <nav><a class="Home" href="index.html" target="_blank">HOME</a><a class="about" href="#about" >ABOUT</a><a class="FAQs" href="faqs/index.html" target="_blank">FAQ</a><a class="CONTACT" href="#">CONTACT</a></nav>
+        <img class="logo" src="media/logo.png">
+      </header>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="bar">
+        <hr class="_1">
+        <hr class="_2">
+        <hr class="_3">
+      </div>
+      <div class="subMenu"><img class="bgMenu" src="media/rounded.svg">
+        <nav class="subNav"><a class="Home" href="index.html" target="_blank">HOME</a><a class="about" href="#about">ABOUT</a><a class="FAQs" href="faqs/index.html" target="_blank">FAQ</a><a class="CONTACT" href="#">CONTACT</a></nav>
+      </div>
+    </section>
+    <!-- Header and smooth slider-->
+    <section class="container-fluid sec1" id="particles-js"><img class="bg bg1" src="media/bg1.jpg"><img class="bg bg2" src="media/bg2.jpg">
+      <div class="secCont"></div><img class="svgDown" src="media/svgDwn.svg"><i class="fa fa-angle-double-down"></i>
+    </section>
+    <!-- Services in short-->
+    <section class="conatainer-fluid sec2" id="about">
+      <h1 class="display-4">ABOUT</h1>
+      <div class="all row">
+          <div class="col-md">
+            <h3> TEDx Youth Ismailia STEM </h3>
+            <p class="col_content">TEDx is a grassroots initiative, created in the spirit of TED’s overall mission to research and discover “ideas worth spreading.” TEDx brings the spirit of TED to local communities around the globe through TEDx events. These events are organized by passionate individuals who seek to uncover new ideas and to share the latest research in their local areas that spark conversations in their communities. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED. These events are not controlled by TED, but event organizers agree to abide by our format, and are offered guidelines for curation, speaker coaching, event organizing and more. They learn from us and from each other. More than 3000 events are now held annually. </p>
+          </div>
+          <div class="col-md">
+            <h3> TEDx Youth Ismailia STEM </h3>
+            <p class="col_content">TEDx Youth Ismailia STEM is a non-profit organization that work on effecting all their audiences through making an Event that has experiences speakers in different careers who gives a short talk in about 18 minutes.  </p>
+          </div>
+      </div>
+      <a class="servLink" href="../faqs/index.html" target="_blank">FOR MORE INFORMATION SEE FAQs PAGE   </a>
+    </section>
+    <!-- Why choose us?-->
+    <section class="container-fluid sec3"><img class="ch-bg" src="../media/choose.jpg">
+      <div class="all">
+        <h2>BREAKING NEWS!</h2>
+      </div>
+      <h3 class="trvlHead">Testimonials</h3>
+    </section>
+    <!-- Testimonials-->
+    <section class="sec4 hide">
+      <div class="cont"></div>
+      <!-- Team-->
+    </section>
+    <section class="container-fluid sec5">
+      <h1> SPEAKERS </h1>
+      <div class="cont"></div>
+    </section>
+    <!-- Loading-->
+    <section class="container-fluid Loading">
+      <div class="progress">
+        <div class="spinner-border"></div>
+      </div>
+    </section>
+    <!-- SUBSCRIBE-->
+    <section class="container-fluid subscribeSec">
+      <form method="POST" action="php/"><i class="fa fa-times" id="closeSub"></i>
+        <div class="input-group">
+          <input type="email" placeholder="YOUR E-MAIL ADDRESS">
+          <div class="input-group-append">
+            <button class="btn btn-warning">SUBSCRIBE</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- Message-->
+    <section class="container-fluid messageSec"><i class="fa fa-times" id="closeMessage"></i>
+      <div class="all">
+        <h2 class="h1-responsive text-center my-4">MESSAGE US</h2>
+        <p class="text-center w-responsive mx-auto mb-5">
+          Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+        <div class="row">
+          <div class="col-md-9">
+            <form id="contact-form" name="contact-form" action="php/mail.php" method="POST">
+              <div class="row">
+                <div class="col-sm-5">
+                  <input class="form-control" type="text" id="name" name="name" placeholder=" YOUR NAME ">
+                </div>
+                <div class="col-sm-7">
+                  <input class="form-control" type="text" id="email" name="email" placeholder=" YOUR E-MAIL">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <input class="form-control" type="text" id="subject" name="subject" placeholder=" MESSAGE'S SUBJECT ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <textarea class="form-control md-textarea" type="text" id="message" name="message" rows="2" placeholder=" YOUR MESSAGE "></textarea>
+                </div>
+              </div>
+            </form>
+            <div class="text-center"><a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a></div>
+            <div class="status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid footer"><img class="logoDwn" src="media/logoSVG.svg">
+      <h3></h3>
+      <p> </p>
+      <div class="group-btn">
+        <button class="btn btn-warning" id="messages">MESSAGE</button>
+      </div>
+    </section>
+    <div class="copyRight">
+      <h3>&copy; </h3>
+      <div class="social"></div>
+    </div>
+    <!-- To Top Button-->
+    <div class="toTop"><i class="fa fa-chevron-up"></i></div>
+  </body>
+</html>
