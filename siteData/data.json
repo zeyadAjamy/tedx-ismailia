@@ -19,74 +19,7 @@
     "title": "Tickets",
     "details": "Purchase your <a class='ticketLink' style='color: #007bff; cursor:pointer'> Ticket NOW! <span class='fa fa-arrow-right purchase'></span> </a> "
    }
-  },
-  "team":{
-   "m1":{
-    "imgSrc": "../media/",
-    "memName": "Ali Abdelghafar (Alilio)",
-    "memRole": "Gaming reactor especially react on pubg mobile players"
-   },
-   "m2":{
-    "imgSrc": "../media/",
-    "memName": "Ali Shaheen",
-    "memRole": "Software team leader and technical consulter"
-   },
-   "m3":{
-    "imgSrc": "../media/",
-    "memName": "Abdullah Ramadan",
-    "memRole": "English instructor and trainer"
-   },
-   "m4":{
-    "imgSrc": "../media/",
-    "memName": "Ahmed Soliman (Soliman nightmares)",
-    "memRole": "Imaginary adventures"
-   },
-   "m5":{
-    "imgSrc": "../media/",
-    "memName": "Ahmed Elgarnosy",
-    "memRole": "Tech. & gaming content"
-   },
-   "m6":{
-    "imgSrc": "../media/",
-    "memName": "Mai Gamal",
-    "memRole": "English instructor"
-   },
-   "m7":{
-    "imgSrc": "../media/",
-    "memName": "Waleed Mostafa",
-    "memRole": "Video creator, public speaker, comedian, and civil marine engineer "
-   },
-   "m8":{
-    "imgSrc": "../media/",
-    "memName": "Sa3dola",
-    "memRole": "Pubg Streamer"
-   },
-   "m9":{
-    "imgSrc": "../media/",
-    "memName": "Amera Elbelly",
-    "memRole": "Poetess"
-   },
-   "m10":{
-    "imgSrc": "../media/",
-    "memName": "Sohaib Eldosoky",
-    "memRole": "Motion graphic"
-   },"m11":{
-    "imgSrc": "../media/",
-    "memName": "Bassam Sami",
-    "memRole": "Writer"
-   },
-   "m12":{
-    "imgSrc": "../media/",
-    "memName": "Shady Mostafa",
-    "memRole": "Astrophysics"
-   },
-   "m13":{
-    "imgSrc": "../media/",
-    "memName": "Waleed Fekry – قعدة تاريخ",
-    "memRole": "Historical videos creator"
-   }
-  }
- },
+  }},
  "services":{
   "mainDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec convallis nulla. Curabitur fringilla nec mauris nec tristique. ",
   "service": {
@@ -121,66 +54,6 @@
    "servDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a laoreet turpis. Interdum et malesuada. "
   }
   }
- },
- "portfolio":{
-   "slider":{
-    "s1": {
-     "active": "active",
-     "imgSrc": "../media/ser-1.jpg",
-     "slideTitle": "FIRST",
-     "slideDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
-    },
-    "s2": {
-     "active": "",
-     "imgSrc": "../media/ser-2.jpg",
-     "slideTitle": "SECOND",
-     "slideDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."    
-    },
-    "s3": {
-     "active": "",
-     "imgSrc": "../media/ser-3.jpg",
-     "slideTitle": "LAST",
-     "slideDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."    
-    }
-   },
-   "projects":{
-    "project1": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    },
-    "project2": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    },
-    "project3": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    },
-    "project4": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    },
-    "project5": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    },
-    "project6": {
-     "imgSrc": "../media/serv-bg.jpg",
-     "projectTitle": "PROJECT TITLE",
-     "projectDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam odio lectus, varius sit amet interdum ac, fermentum vel ex. Quisque.",
-     "revLink": "#"
-    }
-   }
  },
  "faqs":{
   "mainDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec convallis nulla. Curabitur fringilla nec mauris nec tristique. ",
@@ -228,69 +101,7 @@
     "ans":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non viverra nibh, malesuada imperdiet ex. Sed eu scelerisque felis, pellentesque vestibulum felis. Nunc pretium imperdiet purus, ac mollis nisl cursus vel. Nunc id augue ut neque finibus molestie vel nec. "
    }
   }
- },
- "blogs":{
-  "mainDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec convallis nulla. Curabitur fringilla nec mauris nec tristique. ",
-  "allBlogs": {
-   "b1": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b2": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b3": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b4": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b5": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b6": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   },
-   "b7": {
-    "mainImgSrc": "../media/ser-3.jpg",
-    "authorImgSrc": "../media/author.jpg",
-    "blogTitle": "BLOG TITLE",
-    "authorName": "Author Name",
-    "date": "00/00/0000",
-    "revLink": "#"
-   }
-  }
- },
- "footer":{
+ },"footer":{
   "mainTitle": "WE'D LOVE TO HELP",
   "description": "Please let us know if you have any questions!",
   "copyRight": "Tedx-Ismailia 2021",

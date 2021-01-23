@@ -434,6 +434,7 @@ header nav a:hover:after {
 
 .ad .closeAD{
   font-size: 25px;
+  z-index: 5000;
   position: absolute;
   right: 50px;
   top: 50px;
@@ -529,9 +530,9 @@ header nav a:hover:after {
 }
 
 .sec5 {
+  display: none;
   padding: 30px;
   margin-top: 30px;
-  /*background: url(/media/team-bg.jpg) center center fixed;*/
   background-size: cover;
   font-family: raleway, Arial, Helvetica, sans-serif;
 }
@@ -833,8 +834,8 @@ header nav a:hover:after {
 }
 
 .footer {
-  border-top: 3px solid rgba(29, 29, 29, 0.95);
-  background-color: rgba(37, 37, 37, 0.027);
+  /*border-top: 3px solid rgba(29, 29, 29, 0.95);*/
+  background-color: rgba(255, 255, 255, 0.027);
   padding: 0px;
   height: fit-content;
   display: block;
